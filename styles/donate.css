@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.header{
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* banner style */
+.banner{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin: 0 400px;
+}
+
+.banner-title{
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 100px;
+    
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 18px;
+    
+}
