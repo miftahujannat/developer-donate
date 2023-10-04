@@ -9,7 +9,7 @@
     padding: 30vh 0;
 }
 .btn-primary{
-    background-color: rgb(247, 99, 0);
+    background-color: tomato;
     font-weight: 500;
     font-size: 45px;
 
@@ -61,23 +61,97 @@ main{
     font-size: 25px;
 }
 /* about section*/
-.info{
-    background-color: rgb(139, 139, 145);
-    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.06);
-    border-radius: 5px;
-}
 
-.about-info-container{
+.info-container{
+    margin-top: 50px;
     display: flex;
-    gap:50px;
+    justify-content: space-around ;
     
 }
 
 .info-title{
     font-size: 20px;
     font-weight: 700;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb( 204 , 204, 204);
+
+}
+.info-title:hover {
+    outline: 2px solid tomato;
+    background-color: rgb(252, 252, 220);
 }
 .info-decription{
-    color: black;
+    color: rgb(66, 66, 66);
    
+}
+.info-title:hover .info-decription {
+    color: tomato;
+}
+/*section styles*/
+
+.section-title{
+    text-align: center;
+    font-weight: 50px;
+    font-size: 35px;
+    
+}
+.section-alain{
+    color: rgb(109, 136, 136);
+    background-color:rgb(245, 240, 240);
+}
+.section-derection{
+    background-color: tomato;
+    margin-top: 30px;
+    font-weight: 75px;
+    font-size: 35px;
+    border-radius: 5px;
+    padding: 5px;
+}
+/*donate plan styles */
+
+.oder-title{
+    margin-top: 130px;
+}
+.oder-alain{
+    color: black;
+    font-weight: 600px;
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+}
+.oder-derection{
+    text-align: center;
+    font-weight: 50px;
+    font-size: 25px;
+    color: rgb(109, 136, 136);
+    padding: 30px;
+}
+.skills-container{
+    display: flex;
+    gap:24px;
+    padding: 10px;
+}
+.skill{
+    background-color: rgb(245, 178, 178);
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill-alain{
+    background-color: rgb(195, 235, 235);
+}
+.skill-decoretion{
+    background-color: rgb(168, 228, 162);
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.skill-description{
+    color: rgb(56, 56, 56);
+    margin-top: 20px;
+    padding: 10px;
 }
