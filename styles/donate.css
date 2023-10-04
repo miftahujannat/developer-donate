@@ -3,10 +3,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 .header{
-    background-image: url('../images/donation1.jpg');
+    background-image:linear-gradient(0deg, rgba(8, 8, 8, 0.572), rgba(0, 0, 0, 0.109)), url('../images/coverImage.png');
     background-repeat: no-repeat;
-    background-position: center;
+    background-size: cover;
+    padding: 30vh 0;
 }
+
 /* banner style */
 .banner{
     color: aliceblue;
