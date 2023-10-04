@@ -8,6 +8,12 @@
     background-size: cover;
     padding: 30vh 0;
 }
+.btn-primary{
+    background-color: rgb(247, 99, 0);
+    font-weight: 500;
+    font-size: 45px;
+
+}
 
 /* banner style */
 .banner{
@@ -19,13 +25,59 @@
 
 .banner-title{
     color: aliceblue;
-    font-weight: 600;
-    font-size: 45px;
-    margin-bottom: 100px;
+    font-weight: 800;
+    font-size: 85px;
+    margin-bottom: 50px;
     
 }
 .banner-sub-title{
-    font-weight: 600;
-    font-size: 18px;
+    color: rgb(181, 218, 206);
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 50px;
     
+}
+/*main section */
+main{
+    max-width: 1140px;
+   margin: 0 auto;
+}
+/*donate section styles*/
+.donate{
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 300px;
+    font-size: 45px;
+
+}
+.section-decription{
+    color: rgb(109, 136, 136);
+    font-weight: 50px;
+    font-size: 25px;
+}
+/* about section*/
+.info{
+    background-color: rgb(139, 139, 145);
+    box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.about-info-container{
+    display: flex;
+    gap:50px;
+    
+}
+
+.info-title{
+    font-size: 20px;
+    font-weight: 700;
+}
+.info-decription{
+    color: black;
+   
 }
