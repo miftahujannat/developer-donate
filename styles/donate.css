@@ -235,11 +235,69 @@ main{
     background-color: tomato;
     text-align: 100px left;
     padding: 20px;
-    padding-bottom: 5px;
+    margin-left: 10px;
 
 }
 .deta-contain{
     height: 500px;
     width: 500px;
     padding: 10px;
+}
+.semi-container{
+    display: flex;
+    gap:24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.semi-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 20px;
+    padding: 10px;
+}
+.semi-alain{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 50px;
+}
+input{
+    color: rgb(124, 122, 122);
+    background-color: rgb(208, 216, 213);
+    margin-left: 300px;
+    margin-right: 20px;
+    width: 30%;
+    height: 20px;
+    padding: 10px 20px;
+    gap:20px;
+    
+}
+.action{
+    font-size: 15px;
+    font-weight: 20px;
+    background-color: tomato;
+    padding: 10px 20px;
+    gap:0px;
+
+    
+}
+.import{
+    background-color: rgb(226, 154, 168);
+    padding: 50px;
+}
+
+.text-title{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 10px;
+    padding-top: 200px;
+}
+.text-alain{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 10px;
+    padding: 30px;
+}
+.container{
+   
 }
