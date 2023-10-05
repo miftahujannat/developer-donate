@@ -127,9 +127,12 @@ main{
     color: rgb(109, 136, 136);
     padding: 30px;
 }
+/*skills styles*/
+
 .skills-container{
     display: flex;
     gap:24px;
+    margin-top: 20px;
     padding: 10px;
 }
 .skill{
@@ -140,9 +143,11 @@ main{
 }
 .skill-alain{
     background-color: rgb(195, 235, 235);
+    padding: 30px;
 }
 .skill-decoretion{
     background-color: rgb(168, 228, 162);
+    padding: 30px;
 }
 .skill-title{
     font-weight: 700;
@@ -153,5 +158,88 @@ main{
 .skill-description{
     color: rgb(56, 56, 56);
     margin-top: 20px;
+    padding: 10px;
+}
+
+/*meta styles*/
+
+.meta-container{
+    display: flex;
+    gap:24px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.meta-title{
+    font-size: 40px;
+    font-weight: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.meta-alain{
+    color: black;
+    font-size: 20px;
+    font-weight: 5px;
+    padding: 10px;
+}
+.meta-description{
+    font-size: 20px;
+    font-weight: 5px;
+    padding: 15px;
+}
+.meta-derection{
+    background-color: tomato;
+    font-size: 25px;
+    font-weight: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+} 
+.meta-contain{
+    height: 500px;
+    width: 500px;
+}
+/*deta styles*/
+.deta-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px;
+}
+.deta-title{
+    font-size: 40px;
+    font-weight: 10px;
+    margin-top: 20px;
+    padding-left: 100px;
+   
+}
+.deta-alain{
+    
+    color: black;
+    font-size: 20px;
+    font-weight: 5px;
+    margin-top: 20px;
+    padding: 20px;
+    padding-left: 100px;
+}
+.deta-descripton{
+    color: black;
+    font-size: 20px;
+    font-weight: 10px;
+    padding: 20px;
+    padding-left: 100px;
+}
+.deta-derection{
+    font-size: 20px;
+    font-weight: 10px;
+    background-color: tomato;
+    text-align: 100px left;
+    padding: 20px;
+    padding-bottom: 5px;
+
+}
+.deta-contain{
+    height: 500px;
+    width: 500px;
     padding: 10px;
 }
